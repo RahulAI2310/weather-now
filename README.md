@@ -1,12 +1,35 @@
-# React + Vite
+# 🌤️ Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app to check **real-time weather** by city name.  
+Built with **React, Vite, TailwindCSS**, and powered by **Open-Meteo API** (no API key required).  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Search weather by city name  
+- Shows temperature, windspeed, and weather condition  
+- Clean UI with TailwindCSS styling  
+- API data from [Open-Meteo](https://open-meteo.com)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React (Vite)  
+- TailwindCSS  
+- Open-Meteo API  
+
+---
+
+## 📦 Installation & Setup
+```bash
+# Clone this repository
+git clone https://github.com/RahulAI2310/weather-now.git
+
+# Go inside the project
+cd weather-now
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
